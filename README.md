@@ -5,7 +5,7 @@ posting these codes for anyone's use and everyone's constructive criticism.
 
 Most of these can be used by simply compiling the source and 'cat'ing the input into the executable via a pipe:
 
-cat testfile | '<executable>'
+cat testfile | \<executable\>
 
 Those solutions that do not function by operating on a character stream through stdin can either be run as stand-alone 
 executables, or contain addiontional instructions in their headers.
